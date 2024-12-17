@@ -14,6 +14,9 @@ http://localhost:3000/api-docs
 
 ```
 
+- How to setup swagger js : [Click Here](./swagger-js-setup/)
+- How add ".gitignore" file in your project : [Click Here](./gitignore/)
+
 ## Designing RESTful API URLs: Best Practices for Clean and Intuitive Endpoints
 
 ### 1. **Use Identifiers in URLs Instead of Query Strings**

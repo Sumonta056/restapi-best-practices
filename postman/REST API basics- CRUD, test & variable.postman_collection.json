@@ -75,7 +75,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"name\": \"iPhone 15 Pro\",\n  \"price\": 1499,\n  \"category\": \"65a90728b39a24001df80d7a\",\n  \"stock\": 100\n}\n",
+					"raw": "{\n  \"name\": \"iPhone 13 Pro\",\n  \"price\": 1499,\n  \"category\": \"65a90728b39a24001df80d7a\",\n  \"stock\": 100\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -95,6 +95,48 @@
 					]
 				},
 				"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/products?page=1&limit=10&sort=name&priceMin=1000&priceMax=2000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products?page=1&limit=10&sort=name&priceMin=1000&priceMax=2000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "sort",
+							"value": "name"
+						},
+						{
+							"key": "priceMin",
+							"value": "1000"
+						},
+						{
+							"key": "priceMax",
+							"value": "2000"
+						}
+					]
+				}
 			},
 			"response": []
 		}
