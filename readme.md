@@ -9,9 +9,7 @@ npm start
 - Api documentation
 
 ```bash
-
 http://localhost:3000/api-docs
-
 ```
 
 - How to setup swagger js : [Click Here](./swagger-js-setup/)
